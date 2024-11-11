@@ -1,5 +1,9 @@
 
-
+h1 {
+  color: #333;
+  text-align: center;
+   background: #d89999;
+}
 
 /* Container for Resume */
 .resume-container {
@@ -59,17 +63,20 @@
   color: rgb(235, 234, 242);
   font-weight:bold;}
 
+  
+  .linkedin-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: rgb(235, 234, 242);
+    font-weight:bold;}
+
 /* Right Side for Information Sections */
 .right-side {
   width: 60%;
   position: relative;
  padding-left: 20px;
  
-}
-
-h1 {
-  color: #333;
-  text-align: center;
 }
 
 section, .right-side ul {
