@@ -1,0 +1,108 @@
+
+h1 {
+  color: #333;
+  text-align: center;
+   background: #d89999;
+}
+
+/* Container for Resume */
+.resume-container {
+  border: 2px solid#333;
+  border-radius:8px;
+  display: flex;
+  max-width: 900px;
+  margin: 20px auto;
+  max-width:800px
+  background-color #f4f4f4;
+  color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+}
+
+/* Left Side for Profile Image and Contact Info */
+.left-side {
+  width: 40%;
+  text-align: center;
+  padding-right: 20px;
+  background-color: #242039;
+}
+.profile-picture {
+  text-align: center; 
+  padding: 20px; 
+}
+
+.profile-picture img {
+  width: 200px; 
+  height: auto; 
+  border-radius: 50%; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.email{
+  color: aqua;
+  text-align: center;
+}
+.email-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: rgb(235, 234, 242);
+  font-weight: bold;
+}
+.link { color: aqua;
+  text-align: center;
+}
+.github-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: rgb(235, 234, 242);
+  font-weight:bold;}
+
+  
+  .linkedin-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: rgb(235, 234, 242);
+    font-weight:bold;}
+
+/* Right Side for Information Sections */
+.right-side {
+  width: 60%;
+  position: relative;
+ padding-left: 20px;
+ 
+}
+
+section, .right-side ul {
+  margin-bottom: 40px;
+  justify-items: center;
+}
+
+.right-side h2 {
+  color: #333;
+  font-size: 1.2em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.toggle-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(78, 51, 103);
+  color:#fff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
